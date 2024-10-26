@@ -1,0 +1,20 @@
+[debug] [2024-08-26T13:33:38.814Z] ----------------------------------------------------------------------
+[debug] [2024-08-26T13:33:38.818Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-08-26T13:33:38.819Z] CLI Version:   13.15.1
+[debug] [2024-08-26T13:33:38.819Z] Platform:      win32
+[debug] [2024-08-26T13:33:38.820Z] Node Version:  v18.20.4
+[debug] [2024-08-26T13:33:38.833Z] Time:          Mon Aug 26 2024 15:33:38 GMT+0200 (South Africa Standard Time)
+[debug] [2024-08-26T13:33:38.834Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-08-26T13:33:38.840Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-08-26T13:33:38.936Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-08-26T13:33:38.937Z] > authorizing via signed-in user (maluwa.mushem@gmail.com)
+[debug] [2024-08-26T13:33:42.032Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: getaddrinfo ENOTFOUND firebase-public.firebaseio.com
+[warn] !  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2024-08-26T13:33:42.035Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2024-08-26T13:33:43.959Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:268:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.
